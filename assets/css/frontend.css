@@ -1,0 +1,321 @@
+/**
+ * Unstoppable Product Alerts - Frontend Styles
+ *
+ * @package Unstoppable_Stock_Alerts
+ * @version 1.0.0
+ */
+
+/* ==========================================================================
+   Product Alert Form Container
+   ========================================================================== */
+
+.ussa-stock-alert-form {
+    margin: 20px 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    clear: both;
+}
+
+.ussa-stock-alert-form.ussa-already-subscribed {
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+    border-color: #28a745;
+}
+
+/* ==========================================================================
+   Form Title
+   ========================================================================== */
+
+.ussa-form-title {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* ==========================================================================
+   Already Subscribed State
+   ========================================================================== */
+
+.ussa-subscribed-message {
+    text-align: center;
+}
+
+.ussa-icon-check {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #28a745;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.ussa-subscribed-message p {
+    margin: 0 0 15px;
+    color: #155724;
+    font-size: 14px;
+}
+
+.ussa-unsubscribe-btn {
+    font-size: 12px !important;
+    padding: 6px 12px !important;
+    background: transparent !important;
+    color: #666 !important;
+    border: 1px solid #ccc !important;
+}
+
+.ussa-unsubscribe-btn:hover {
+    background: #dc3545 !important;
+    color: #fff !important;
+    border-color: #dc3545 !important;
+}
+
+/* ==========================================================================
+   Login Required State
+   ========================================================================== */
+
+.ussa-login-required {
+    text-align: center;
+}
+
+.ussa-login-required p {
+    margin: 0;
+    color: #666;
+}
+
+.ussa-login-required a {
+    color: #7f54b3;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Subscribe Form
+   ========================================================================== */
+
+.ussa-subscribe-form {
+    margin: 0;
+}
+
+.ussa-form-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.ussa-email-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 12px 15px !important;
+    font-size: 14px !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 4px !important;
+    background: #fff !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ussa-email-input:focus {
+    border-color: #7f54b3 !important;
+    box-shadow: 0 0 0 3px rgba(127, 84, 179, 0.15) !important;
+    outline: none !important;
+}
+
+.ussa-email-input[readonly] {
+    background: #f8f9fa !important;
+    color: #6c757d;
+}
+
+.ussa-email-input.ussa-error {
+    border-color: #dc3545 !important;
+}
+
+.ussa-submit-btn {
+    padding: 12px 25px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    white-space: nowrap;
+    min-width: 140px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.ussa-submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.ussa-submit-btn .ussa-btn-loading {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* ==========================================================================
+   Loading Spinner
+   ========================================================================== */
+
+.ussa-spinner {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: ussa-spin 0.8s linear infinite;
+}
+
+@keyframes ussa-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ==========================================================================
+   Form Messages
+   ========================================================================== */
+
+.ussa-form-messages {
+    margin-top: 15px;
+}
+
+.ussa-message {
+    padding: 12px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.ussa-message-success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.ussa-message-error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* ==========================================================================
+   Subscriber Count
+   ========================================================================== */
+
+.ussa-subscriber-count {
+    margin: 15px 0 0;
+    padding: 8px 12px;
+    background: rgba(127, 84, 179, 0.1);
+    border-radius: 4px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Variation Product Handling
+   ========================================================================== */
+
+.variations_form .ussa-stock-alert-form {
+    display: none;
+    margin-top: 15px;
+}
+
+.variations_form .ussa-stock-alert-form.ussa-visible {
+    display: block;
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media screen and (max-width: 600px) {
+    .ussa-stock-alert-form {
+        padding: 15px;
+    }
+    
+    .ussa-form-row {
+        flex-direction: column;
+    }
+    
+    .ussa-email-input {
+        width: 100%;
+        min-width: auto;
+    }
+    
+    .ussa-submit-btn {
+        width: 100%;
+    }
+}
+
+/* ==========================================================================
+   Dark Mode Support
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+    .ussa-stock-alert-form {
+        background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+        border-color: #4a5568;
+    }
+    
+    .ussa-form-title {
+        color: #e2e8f0;
+    }
+    
+    .ussa-email-input {
+        background: #2d3748 !important;
+        border-color: #4a5568 !important;
+        color: #e2e8f0 !important;
+    }
+    
+    .ussa-email-input::placeholder {
+        color: #718096;
+    }
+    
+    .ussa-subscriber-count {
+        background: rgba(127, 84, 179, 0.2);
+        color: #a0aec0;
+    }
+}
+
+/* ==========================================================================
+   Animation for Form Appearance
+   ========================================================================== */
+
+.ussa-stock-alert-form {
+    animation: ussa-fade-in 0.3s ease-out;
+}
+
+@keyframes ussa-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Success state animation */
+.ussa-message-success {
+    animation: ussa-success-pulse 0.5s ease-out;
+}
+
+@keyframes ussa-success-pulse {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
