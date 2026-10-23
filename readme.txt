@@ -2,7 +2,7 @@
 Contributors: paramedic192
 Tags: woocommerce, back-in-stock, product-notifications, waitlist, email-alerts
 Requires at least: 6.0
-Tested up to: 7.1
+Tested up to: 7.1.3
 Stable tag: 1.1.7
 Requires PHP: 7.4
 WC requires at least: 8.0
