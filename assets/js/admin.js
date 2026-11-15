@@ -1,5 +1,5 @@
 /**
- * Unstoppable Stock Alerts - Admin JavaScript
+ * Unstoppable Inventory Alerts - Admin JavaScript
  *
  * Handles admin dashboard, subscriber management, and charts
  *

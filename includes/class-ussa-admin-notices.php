@@ -26,7 +26,7 @@ class USSA_Admin_Notices {
      *
      * @var string
      */
-    private $plugin_name = 'Unstoppable Stock Alerts';
+    private $plugin_name = 'Unstoppable Inventory Alerts';
 
     /**
      * Dashboard URL.

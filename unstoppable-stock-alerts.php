@@ -415,7 +415,7 @@ final class Unstoppable_Stock_Alerts {
     public function woocommerce_missing_notice() {
         ?>
         <div class="notice notice-error">
-            <p><?php esc_html_e( 'Unstoppable Stock Alerts requires WooCommerce to be installed and active.', 'unstoppable-stock-alerts' ); ?></p>
+            <p><?php esc_html_e( 'Unstoppable Inventory Alerts requires WooCommerce to be installed and active.', 'unstoppable-stock-alerts' ); ?></p>
         </div>
         <?php
     }

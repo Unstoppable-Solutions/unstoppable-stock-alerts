@@ -1,5 +1,5 @@
 /**
- * Unstoppable Stock Alerts - Frontend JavaScript
+ * Unstoppable Inventory Alerts - Frontend JavaScript
  *
  * Handles AJAX subscription forms with no page reload
  *
