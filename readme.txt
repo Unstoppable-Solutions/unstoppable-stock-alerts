@@ -77,9 +77,7 @@ Yes. All emails integrate with WooCommerce's email system and can be customized 
 1. Dashboard with statistics and charts
 2. Subscribers list with search and filter
 3. Products tab showing subscriber counts
-4. Settings page
-5. Frontend subscription form
-6. Email notification example
+4. Settings page with form appearance options
 
 == Changelog ==
 
