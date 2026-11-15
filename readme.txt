@@ -3,7 +3,7 @@ Contributors: paramedic192
 Tags: woocommerce, back-in-stock, product-notifications, waitlist, email-alerts
 Requires at least: 6.0
 Tested up to: 7.1
-Stable tag: 1.1.7
+Stable tag: 1.1.8
 Requires PHP: 7.4
 WC requires at least: 8.0
 WC tested up to: 9.8
@@ -80,6 +80,12 @@ Yes. All emails integrate with WooCommerce's email system and can be customized 
 4. Settings page with form appearance options
 
 == Changelog ==
+
+= 1.1.8 =
+* Fixed: Removed "Tested up to" from plugin header (must only be in readme.txt per WordPress.org guidelines)
+* Fixed: Updated all UI text from "Stock Alerts" to "Inventory Alerts" for consistency
+* Updated: WordPress 7.1 compatibility
+* Added: WordPress.org directory screenshots, banner, and icon
 
 = 1.1.7 =
 * Changed: Plugin name to "Unstoppable Inventory Alerts for WooCommerce" for clarity

@@ -9,8 +9,17 @@ For WordPress.org users, the same changelog lives in `readme.txt`.
 
 ## [Unreleased]
 
-### Changed
-- Updated "Tested up to" to WordPress 7.1.3
+## [1.1.8] - 2026-11-15
+
+### Fixed
+- Removed "Tested up to" from plugin header (must only be in readme.txt per WordPress.org guidelines)
+- Updated all UI text from "Stock Alerts" to "Inventory Alerts" for consistency
+
+### Updated
+- WordPress 7.1 compatibility
+
+### Added
+- WordPress.org directory screenshots, banner, and icon
 
 ## [1.1.7] - 2026-10-01
 

@@ -3,7 +3,7 @@
  * Plugin Name: Unstoppable Inventory Alerts for WooCommerce
  * Plugin URI: https://unstoppablesolutions.app/plugins/unstoppable-stock-alerts
  * Description: Modern back-in-stock notifications for WooCommerce with AJAX forms, comprehensive dashboard, CSV exports, and reliable email delivery.
- * Version: 1.1.7
+ * Version: 1.1.8
  * Author: Unstoppable Solutions
  * Author URI: https://unstoppablesolutions.app
  * Text Domain: unstoppable-stock-alerts
@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Define plugin constants.
-define( 'USSA_VERSION', '1.1.7' );
+define( 'USSA_VERSION', '1.1.8' );
 define( 'USSA_PLUGIN_FILE', __FILE__ );
 define( 'USSA_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'USSA_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
